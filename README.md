@@ -5,7 +5,7 @@ Added this flake in your flake.nix inputs:
 inputs = {  
     ...other inputs such as nixpkgs...  
     classin = {  
-      url = "https://github.com/Boom-Nix/classin-flake";  
+      url = "github:Boom-Nix/classin-flake";  
       inputs.nixpkgs.follows = "nixpkgs";  
     };  
     .......  
